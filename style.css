@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    justify-items: center;
+    row-gap: 10px;
+    background-color: rgb(43, 41, 41);
+}
+
+h1{
+    text-align: center;
+}
+
+canvas{
+    width: 90vw;
+    height: 80vh;
+	border: solid;
+	border-radius: 10px;
+	border-color: blue;
+	background: black;
+}
+
+#js_timer{
+    position: fixed;
+    justify-self: start;
+    padding: 10px;
+	font-size: 2rem;
+	font-weight: bolder;
+	text-align: center;
+	border: solid;
+	border-radius: 0.5vw;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#js_timer:hover{
+	background: rgba(250, 250, 250, 1);
+}
