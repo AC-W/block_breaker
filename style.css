@@ -10,8 +10,6 @@ h1{
 }
 
 canvas{
-    width: 90vw;
-    height: 80vh;
 	border: solid;
 	border-radius: 10px;
 	border-color: blue;
